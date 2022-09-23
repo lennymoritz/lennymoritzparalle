@@ -1,0 +1,45 @@
+html, body{
+
+  height: 100%
+}
+
+.section1, .section2, .section3, .section4, .section5{
+
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-attachment: fixed;
+  position: relative;
+}
+.caption {
+  position: absolute;
+  background-color: yellow;
+
+  top: 50%;
+  left: 40%;
+  text-align: center;
+}
+
+.caption-text{
+  color: black;
+  font-size: 25px
+}
+
+
+.section1{
+  background-image: url(1.avif);
+}
+.section2{
+  background-image: url(2.avif)
+}
+.section3{
+  background-image: url(3.avif)
+}
+.section4{
+  background-image: url(4.avif)
+}
+.section5{
+  background-image: url(5.avif)
+}
